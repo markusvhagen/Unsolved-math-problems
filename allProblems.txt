@@ -1,0 +1,32 @@
+*** FORMAT: ***
+[
+  "Conjecture",
+  "Who conjectured it",
+  "When was it conjectured",
+  "Status",
+  "What does the conjecture say",
+  "More info about the problem",
+  "Branch of math"
+]
+******
+
+
+[
+  "Riemann Hypothesis",
+  "Bernhard Riemann",
+  "1859",
+  "Unsolved",
+  "The real part of every non-trivial zero of the Riemann Zeta function is $\\frac12$.",
+  "The Riemann Hypothesis (often abbreviated RH) is one of seven Millenium Prize Problems. RH gives us a very precise bound on the prime counting function $\\pi(x)$. More precisely, due to a result by <i>Schoenfeld</i> (1976), RH implies that $|\\pi(x)-\\text{\li(x)}|<\\frac{1}{8\\pi}\\sqrt{x}\\log(x)$.",
+  "NT"
+],
+
+[
+  "Twin Prime Conjecture",
+  "Alphonse de Polignac",
+  "1849",
+  "Unsolved",
+  "There are an infinite amount of prime numbers that differ by 2.",
+  "In 2013, <i>Yitang Zhang</i> proved that there exists some integer $N< 70 \\, 000 \\, 000$, such that there are infinitely many primes that differ by $N$. The <i>Polymath 8</i>-project reduced the bound on $N$ to $246$. Assuming the generalized <i>Elliot-Hilbertsam conjecture</i> this bound can be furthermore reduced to $6$.",
+  "NT"
+]

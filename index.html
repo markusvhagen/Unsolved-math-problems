@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Unsolved math problems</title>
+    <link rel="stylesheet" href="main.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id="main">
+      <h1>A list of unsolved math problems</h1>
+
+      <form id="branchForm">
+        <label class="checkbox-inline">
+          <input type="checkbox" value="">[AA] (Abstract Algebra)
+        </label>
+        <label class="checkbox-inline">
+          <input type="checkbox" value="">[AN] (Analysis)
+        </label>
+        <label class="checkbox-inline">
+          <input type="checkbox" value="">[GT] (Graph Theory)
+        </label>
+        <label class="checkbox-inline">
+          <input type="checkbox" value="">[NT] (Number Theory)
+        </label>
+      </form>
+
+      <div id="list">
+        <ul>
+
+          <li id="1" onClick="expand(this)"></li>
+          <div class="expandStyle" id="expand1"></div>
+
+          <li id="2" onClick="expand(this)"></li>
+          <div class="expandStyle" id="expand2"></div>
+
+        </ul>
+      </div>
+  </body>
+</html>
